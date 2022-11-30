@@ -6,3 +6,4 @@ matplotlib==3.6.2
 numpy==1.23.5
 plotly==5.11.0
 shap==0.41.0
+openpyxl==3.0.10
