@@ -16,7 +16,7 @@ st.set_page_config(page_title="Sales Dashboard",
 @st.cache # use the decorator to store the loaded dataset
 def get_data_from_excel():
     # read excel file and convert to dataframe
-    df = pd.read_excel('interactive-sales-dashboard/supermarkt_sales.xlsx',
+    df = pd.read_excel('supermarkt_sales.xlsx',
         engine='openpyxl',
         sheet_name='Sales',
         skiprows=3,
